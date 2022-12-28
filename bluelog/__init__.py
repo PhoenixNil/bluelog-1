@@ -221,3 +221,5 @@ def register_request_handlers(app):
                     % (q.duration, q.context, q.statement)
                 )
         return response
+
+app = create_app()
